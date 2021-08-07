@@ -5,7 +5,7 @@
 
 password = 'a123456'
 remain = 3
-while True:
+while reamain > 0:
 	enter = input('請輸入密碼： ')
 	if enter == password:
 		print('登入成功！')
@@ -15,7 +15,6 @@ while True:
 		print('密碼錯誤！還有',remain , '次機會')
 		if remain == 0:
 			print('洗洗睡吧！')
-			break
 
 
 
